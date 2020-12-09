@@ -36,7 +36,8 @@
         <p>Let's get in touch!</p>
       </header>
       <div class="box">
-        <form name="Contact Form" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <form name="Contact Form" method="POST" data-netlify="true" netlify-honeypot="bot-field"
+          data-netlify-recaptcha="true">
           <div class="row gtr-50 gtr-uniform">
             <!-- Bot Field -->
             <div style="display: none;" class="col-6 col-12 mobilep">
@@ -61,6 +62,7 @@
               <label style="display: none;">Message</label>
               <textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
             </div>
+            <div data-netlify-recaptcha="true"></div>
             <div class="col-12">
               <ul class="actions special">
                 <li><input type="submit" value="Send Message" /></li>
