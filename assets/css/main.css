@@ -3158,6 +3158,18 @@
 				z-index: 0;
 			}
 
+.overlay {
+z-index: -100;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+content: '';
+opacity: .25;
+background: #000000;
+}
+
 /* Banner */
 
 	#banner {
@@ -3169,7 +3181,7 @@
 		background-size: auto,							cover;
 		color: #fff;
 		padding: 12em 0 20em 0;
-		text-align: center;
+    text-align: center;
 	}
 
 		#banner :last-child {
