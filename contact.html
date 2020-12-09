@@ -36,18 +36,29 @@
         <p>Let's get in touch!</p>
       </header>
       <div class="box">
-        <form method="post" action="#">
+        <form name="Contact Form" method="POST" data-netlify="true" netlify-honeypot="bot-field">
           <div class="row gtr-50 gtr-uniform">
+            <!-- Bot Field -->
+            <div style="display: none;" class="col-6 col-12 mobilep">
+              <p>
+                <label>Don’t fill this out if you're human:
+                  <input name="bot-field" /></label>
+              </p>
+            </div>
             <div class="col-6 col-12-mobilep">
+              <label style="display: none;">Name</label>
               <input type="text" name="name" id="name" value="" placeholder="Name" />
             </div>
             <div class="col-6 col-12-mobilep">
+              <label style="display: none;">Email</label>
               <input type="email" name="email" id="email" value="" placeholder="Email" />
             </div>
             <div class="col-12">
+              <label style="display: none;">Subject</label>
               <input type="text" name="subject" id="subject" value="" placeholder="Subject" />
             </div>
             <div class="col-12">
+              <label style="display: none;">Message</label>
               <textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
             </div>
             <div class="col-12">
