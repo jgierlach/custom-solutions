@@ -3175,7 +3175,7 @@ background: #000000;
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/background-image.jpg");
+		background-image: url("images/overlay.png"), url("../../images/threads.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
